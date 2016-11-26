@@ -4,7 +4,7 @@ For Chipset `0x0c45`:`0x7603`
 The kernel reports the chipset as `SONiX USB Keyboard`
 
 Written for the Perixx PX-1800 USB Keyboard.
-This software is forked from Colin Svingen's Azio L70 USB Keyboard driver that can be found at https://bitbucket.org/Swoogan/aziokbd
+This software is forked from https://github.com/lolo101/px1800kbd.git
 
 > NOTE: Makefile and instructions are only tested on Ubuntu, however they are known to work on Debian.
 
@@ -16,7 +16,7 @@ First, make sure to have all the required packages to download and build the mod
 
 Then, download the sources:
 
-    git clone https://github.com/lolo101/px1800kbd.git
+    git clone https://github.com/mgvel/px1800kbd.git
 
 `cd` into the sources directory:
 
