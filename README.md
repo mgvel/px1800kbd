@@ -60,4 +60,13 @@ Create a new file in `/etc/default/grub.d/`. For example, you might call it `px1
 
     GRUB_CMDLINE_LINUX_DEFAULT='usbhid.quirks=0x0c45:0x7603:0x00000004'
 
+
+## Ubuntu
 Then run `sudo update-grub` and reboot.
+
+
+## Fedora && CentOS
+grub2-mkconfig -o /boot/grub2/grub.cfg  
+
+reboot
+ 
